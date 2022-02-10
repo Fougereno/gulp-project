@@ -1,0 +1,17 @@
+@import "vendor/vars";
+@import "vendor/reset";
+@import "vendor/mixins";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: sans-serif;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+@import"blocks/header";
