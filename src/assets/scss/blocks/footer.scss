@@ -1,0 +1,17 @@
+.footer {
+    background-color: $darkbrown;
+    color: $white;
+}
+.footer__wrap {
+    max-width: 1460px;
+    margin: 0 auto;
+    min-height: 470px;
+    padding: 60px 0;
+}
+.frnav__heading_h {
+    font-size: 50px;
+}
+.frnav__nav {
+    max-width: 776px;
+    @include flex(left,flex-start,column);
+}
