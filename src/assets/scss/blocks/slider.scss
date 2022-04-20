@@ -1,0 +1,26 @@
+.slider {
+    background-color: $bg;
+    min-height: 1080px;
+    position: relative;
+}
+.slider__wrap {
+    padding-left: 415px;
+}
+.slider__navbar {
+    position: absolute;
+    min-width: 40px;
+    min-height: 490px;
+    left: 110px;
+    top: 295px;
+}
+.slider__head {
+    font-size: 8rem;
+    line-height: 1.1rem;
+    padding-top: 15rem;
+}
+.slider__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+    max-width: 830px;
+}

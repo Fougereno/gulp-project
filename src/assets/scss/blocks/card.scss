@@ -1,19 +1,38 @@
 .card {
+    padding: 12px;
+}
+.card__inner {
     width: 320px;
     min-height: 220px;
     padding: 24px;
     border-radius: 20px;
     color: $darkbrown;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba($brown, 0);
+    transition: all 500ms ease-in-out;
+    &:hover  {
+        border: 1px solid rgba($brown, 1);
+        .card__img {
+            filter: brightness(0);
+        }
+    }
 }
-.card__heading {
+.bfcard__inner {
+    width: 484px;
+    min-height: 220px;
+    color: $darkbrown;
+}
+.card__heading, .bfcard__head {
     line-height: 4rem;
     font-size: 3rem;
 }
-.card__text {
+.card__text, .bfcard__text {
     font-size: 2rem;
     line-height: 2rem;
 }
-.card__inner {
-    @include flex(space-between, end,row)
+.card__wrap, .bfcard__wrap {
+    @include flex(row, space-between, end)
+}
+.card__img {    
+    transition: all .5s ease-in-out;
 }

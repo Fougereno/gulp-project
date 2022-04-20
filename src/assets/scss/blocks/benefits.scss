@@ -1,0 +1,15 @@
+.benefits {
+    max-width: 1640px;
+    margin: 0 auto;  
+}
+.benefits__wrap {
+    @include flex(row, space-between, center);
+    flex-wrap: wrap;  
+    padding-top: 105px;
+    padding-bottom: 310px;
+}
+.benefits__head {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}

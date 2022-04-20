@@ -1,0 +1,7 @@
+.services__wrap {
+    @include flex(row, space-between, center);
+    margin: 0  auto;
+    max-width: 1376px;
+    flex-wrap: wrap;    
+    padding: 126px 0;
+}
