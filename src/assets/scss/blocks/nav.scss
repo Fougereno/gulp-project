@@ -1,0 +1,16 @@
+.nav {
+    @include flex(row, space-between, center);
+    min-height: 100px;
+    padding-top: 65px;
+}
+.nav__logo {
+    width: 100px;
+    height: 100px;
+}
+.nav__ul {
+    @include flex(row, space-between, center);
+}
+.nav__li {
+    color: $brown;
+    padding-right: 8rem;
+}

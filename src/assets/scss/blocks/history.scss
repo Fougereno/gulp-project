@@ -1,0 +1,23 @@
+.history {
+    background-color: $darkbg;
+    min-height: 1080px;
+    @include flex (column, flex-start, center);
+}
+.history__head {
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-top: 18rem;
+    padding-bottom: 4.8rem;
+}
+.history__link {
+    color: $orange;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+.history__text {
+    max-width: 480px;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    padding-bottom: 3.6rem;
+}
